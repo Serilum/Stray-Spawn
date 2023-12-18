@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "strayspawn",
-  "version": "3.4",
+  "version": "3.5",
 
   "name": "Stray Spawn",
   "description": "Allows a chance for strays to spawn naturally everywhere instead of a skeleton.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/stray-spawn",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Stray%20Spawn",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Stray%20Spawn"
+    "homepage": "https://serilum.com/mod/stray-spawn",
+    "sources": "https://github.com/Serilum/Stray-Spawn",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Stray%20Spawn"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
