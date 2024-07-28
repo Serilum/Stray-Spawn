@@ -1,6 +1,7 @@
 package com.natamus.strayspawn;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.strayspawn.forge.config.IntegrateForgeConfig;
 import com.natamus.strayspawn.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,6 +14,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
