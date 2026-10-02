@@ -1,7 +1,7 @@
-package com.natamus.strayspawn;
+package com.serilum.strayspawn;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.strayspawn.config.ConfigHandler;
+import com.serilum.strayspawn.config.ConfigHandler;
 import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.item.Items;
 

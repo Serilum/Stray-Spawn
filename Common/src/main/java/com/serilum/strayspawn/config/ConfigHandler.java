@@ -1,7 +1,7 @@
-package com.natamus.strayspawn.config;
+package com.serilum.strayspawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.strayspawn.util.Reference;
+import com.serilum.strayspawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
