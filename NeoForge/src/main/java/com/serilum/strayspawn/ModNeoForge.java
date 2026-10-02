@@ -1,9 +1,9 @@
-package com.natamus.strayspawn;
+package com.serilum.strayspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.strayspawn.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.strayspawn.util.Reference;
+import com.serilum.strayspawn.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.strayspawn.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
