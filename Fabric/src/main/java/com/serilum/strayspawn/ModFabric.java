@@ -1,8 +1,8 @@
-package com.natamus.strayspawn;
+package com.serilum.strayspawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.strayspawn.util.Reference;
+import com.serilum.strayspawn.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

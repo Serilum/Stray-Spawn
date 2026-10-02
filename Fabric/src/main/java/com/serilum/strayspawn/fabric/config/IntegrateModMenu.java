@@ -1,7 +1,7 @@
-package com.natamus.strayspawn.fabric.config;
+package com.serilum.strayspawn.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.strayspawn.util.Reference;
+import com.serilum.strayspawn.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

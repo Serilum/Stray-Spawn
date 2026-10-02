@@ -1,7 +1,7 @@
-package com.natamus.strayspawn.forge.config;
+package com.serilum.strayspawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.strayspawn.util.Reference;
+import com.serilum.strayspawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
